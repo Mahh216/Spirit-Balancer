@@ -21,7 +21,7 @@ function handleOrientation(event) {
   // round figures down
   x = Math.round(x ,-1);
   y = Math.round(y ,-1);
-
+//outputs X and Y coordinates 
   output.innerHTML = "x : " + x + "\n";
   output.innerHTML += "y: " + y + "\n";
 
